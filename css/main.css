@@ -110,6 +110,28 @@ h2{
     width: 100vw;
 }
 
+.highlighted{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.highlighted-title{
+    color: #009C99;
+    text-align: center;
+}
+
+.highlighted h3{
+    color: #009C99;
+    text-align: center;
+}
+
+.highlighted article{
+    display: flex;
+    flex-direction: column;
+    max-width: 22%;
+}
+
 .footer{
     min-height: 9vh;
     height: 9vh;
@@ -140,7 +162,7 @@ h2{
 
 .icon-container{
     display: flex;
-    justify-content: start;
+    justify-content: center;
     align-items: center;
     align-content: center;
     min-width: 45%;
