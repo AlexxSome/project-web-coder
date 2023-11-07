@@ -141,12 +141,18 @@ h2{
 .icon-container{
     display: flex;
     justify-content: start;
+    align-items: center;
+    align-content: center;
     min-width: 45%;
 }
 
 .icon-container a{
     display: flex;
     align-items: center;
+    max-width: 10%;
+    max-height: 10%;
+    min-height: 5%;
+    min-width: 5%;
 }
 
 
