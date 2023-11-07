@@ -111,19 +111,42 @@ h2{
 }
 
 .footer{
-    min-height: 8vh;
-    height: 8vh;
+    min-height: 9vh;
+    height: 9vh;
     width: 100vw;
     display: flex;
     justify-content: space-around;
     background-color: #EFAA7B;
     font-family: Alata, serif;
     font-size: 14px;
+    margin-top: 4%;
+}
+
+.footer-copyright {
+    text-align: end;
+    min-width: 45%;
+}
+
+.footer-copyright p{
+    color: white;
 }
 
 .icon{
     max-width: 50%;
     max-height: 50%;
+    min-height: 70%;
+    min-width: 70%;
+}
+
+.icon-container{
+    display: flex;
+    justify-content: start;
+    min-width: 45%;
+}
+
+.icon-container a{
+    display: flex;
+    align-items: center;
 }
 
 
