@@ -114,15 +114,16 @@ h2{
     min-height: 8vh;
     height: 8vh;
     width: 100vw;
-    display: block;
-    text-align: center;
+    display: flex;
+    justify-content: space-around;
     background-color: #EFAA7B;
     font-family: Alata, serif;
     font-size: 14px;
 }
 
-.footer p{
-
+.icon{
+    max-width: 50%;
+    max-height: 50%;
 }
 
 
