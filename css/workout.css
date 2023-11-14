@@ -45,8 +45,41 @@ a {
     font-size: 26px;
 }
 
+h1{
+    color: #009C99;
 
+    text-align: center;
+    font-family: Arizonia;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 124.8%; /* 87.36px */
+}
 
+#intro{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#intro p{
+    color: #515151;
+    text-align: center;
+    font-family: Alata;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 138.3%; /* 20.745px */
+    letter-spacing: 1.35px;
+}
+
+#beaches-container{
+    display: grid;
+    grid-template-columns: repeat(2, 30%);
+    grid-template-rows: repeat(3, 200px);
+}
 
 .footer{
     min-height: 9vh;
