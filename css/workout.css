@@ -57,11 +57,9 @@ h1{
 }
 
 #intro{
-    width: 70%;
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 
 #intro p{
@@ -73,12 +71,90 @@ h1{
     font-weight: 400;
     line-height: 138.3%; /* 20.745px */
     letter-spacing: 1.35px;
+    max-width: 70%;
 }
 
 #beaches-container{
     display: grid;
-    grid-template-columns: repeat(2, 30%);
-    grid-template-rows: repeat(3, 200px);
+    grid-template-columns: repeat(3, 3fr);
+    grid-template-rows: repeat(3, 250px);
+    grid-template-areas: "punta-lobos" "pichilemu-map" "pichilemu-map"
+                         "mavericks"    "maui"         "superbank"
+                         "somo"         "jeffreys-bay"     "puerto-escondido";
+}
+
+.punta-lobos{
+    grid-area: punta-lobos;
+    text-align: center;
+}
+
+.punta-lobos img{
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.pichilemu-map{
+    grid-area: pichilemu-map;
+}
+
+.mavericks{
+    grid-area: mavericks;
+    text-align: center;
+}
+
+.mavericks img{
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.maui{
+    grid-area: maui;
+    text-align: center;
+}
+
+.maui img{
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.superbank{
+    grid-area: superbank;
+    text-align: center;
+}
+
+.superbank img{
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.somo{
+    grid-area: somo;
+    text-align: center;
+}
+
+.somo img{
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.puerto-escondido{
+    grid-area: puerto-escondido;
+    text-align: center;
+}
+
+.puerto-escondido img{
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.jeffreys-bay{
+    grid-area: jeffreys-bay;
+    text-align: center;
+}
+
+.jeffreys-bay img{
+    max-width: 100%;
+    object-fit: cover;
 }
 
 .footer{
