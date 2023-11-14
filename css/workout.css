@@ -78,9 +78,9 @@ h1{
     display: grid;
     grid-template-columns: repeat(3, 3fr);
     grid-template-rows: repeat(3, 250px);
-    grid-template-areas: "punta-lobos" "pichilemu-map" "pichilemu-map"
-                         "mavericks"    "maui"         "superbank"
-                         "somo"         "jeffreys-bay"     "puerto-escondido";
+    grid-template-areas: "punta-lobos pichilemu-map pichilemu-map"
+                         "mavericks    maui         superbank"
+                         "somo         jeffreys-bay     puerto-escondido";
 }
 
 .punta-lobos{
