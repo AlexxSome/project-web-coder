@@ -8,6 +8,10 @@
     padding-top: 4px;
 }
 
+#header a{
+    margin-left: 3%;
+}
+
 body{
     font-family: alata, serif;
     margin:0;
@@ -56,6 +60,21 @@ h1{
     line-height: 124.8%; /* 87.36px */
 }
 
+h3{
+    color: #009C99;
+
+    text-align: center;
+    font-family: Archivo Narrow;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+
+    max-width: 100%;
+    max-height: 100%;
+    margin: 2% 0 0 0;
+
+}
+
 #intro{
     display: flex;
     flex-direction: column;
@@ -77,90 +96,134 @@ h1{
 #beaches-container{
     display: grid;
     grid-template-columns: repeat(3, 3fr);
-    grid-template-rows: repeat(3, 250px);
+    grid-template-rows: repeat(6, 220px);
     grid-template-areas: "punta-lobos pichilemu-map pichilemu-map"
+                         "punta-lobos pichilemu-map pichilemu-map"
                          "mavericks    maui         superbank"
-                         "somo         jeffreys-bay     puerto-escondido";
+                         "mavericks maui superbank"
+                         "somo jeffreys-bay puerto-escondido";
+                         "somo    jeffreys-bay puerto-escondido";
+    gap: 15px;
+    margin-top: 2%;
+}
+
+#beaches-container p{
+    color: #515151;
+
+    text-align: center;
+    font-family: Alata;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+
 }
 
 .punta-lobos{
     grid-area: punta-lobos;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.punta-lobos p{
+    max-width: 100%;
+    max-height: 100%;
 }
 
 .punta-lobos img{
     max-width: 100%;
+    max-height: 80%;
     object-fit: cover;
 }
 
+
 .pichilemu-map{
     grid-area: pichilemu-map;
+    text-align: center;
+}
+
+.pichilemu-map iframe{
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 100%;
 }
 
 .mavericks{
     grid-area: mavericks;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .mavericks img{
     max-width: 100%;
+    max-height: 80%;
     object-fit: cover;
 }
 
 .maui{
     grid-area: maui;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .maui img{
     max-width: 100%;
+    max-height: 80%;
     object-fit: cover;
 }
 
 .superbank{
     grid-area: superbank;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .superbank img{
     max-width: 100%;
+    max-height: 80%;
     object-fit: cover;
 }
 
 .somo{
     grid-area: somo;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .somo img{
     max-width: 100%;
+    max-height: 85%;
     object-fit: cover;
 }
 
 .puerto-escondido{
     grid-area: puerto-escondido;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .puerto-escondido img{
     max-width: 100%;
+    max-height: 85%;
     object-fit: cover;
 }
 
 .jeffreys-bay{
     grid-area: jeffreys-bay;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .jeffreys-bay img{
     max-width: 100%;
+    max-height: 85%;
     object-fit: cover;
 }
 
 .footer{
     min-height: 9vh;
     height: 9vh;
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content: space-around;
     background-color: #EFAA7B;
