@@ -8,6 +8,10 @@
     padding-top: 4px;
 }
 
+#header a{
+    margin-left: 3%;
+}
+
 body{
     font-family: alata, serif;
     margin:0;
