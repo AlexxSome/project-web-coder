@@ -99,12 +99,14 @@ h3{
     grid-template-rows: repeat(6, 220px);
     grid-template-areas: "punta-lobos pichilemu-map pichilemu-map"
                          "punta-lobos pichilemu-map pichilemu-map"
-                         "mavericks    maui         superbank"
-                         "mavericks maui superbank"
-                         "somo jeffreys-bay puerto-escondido";
-                         "somo    jeffreys-bay puerto-escondido";
+                         "somo maui superbank"
+                         "somo maui superbank"
+                         "mavericks jeffreys-bay puerto-escondido"
+                         "mavericks jeffreys-bay puerto-escondido";
     gap: 15px;
     margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 #beaches-container p{
@@ -188,11 +190,12 @@ h3{
     grid-area: somo;
     display: flex;
     flex-direction: column;
+
 }
 
 .somo img{
     max-width: 100%;
-    max-height: 85%;
+    max-height: 80%;
     object-fit: cover;
 }
 
@@ -204,7 +207,7 @@ h3{
 
 .puerto-escondido img{
     max-width: 100%;
-    max-height: 85%;
+    max-height: 80%;
     object-fit: cover;
 }
 
@@ -216,7 +219,7 @@ h3{
 
 .jeffreys-bay img{
     max-width: 100%;
-    max-height: 85%;
+    max-height: 80%;
     object-fit: cover;
 }
 
