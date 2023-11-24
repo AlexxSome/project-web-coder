@@ -139,7 +139,7 @@ h2{
 .footer{
     min-height: 9vh;
     height: 9vh;
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content: space-around;
     background-color: #EFAA7B;
