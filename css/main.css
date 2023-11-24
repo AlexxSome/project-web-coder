@@ -55,6 +55,7 @@ h2{
     font-size:40px;
     font-weight:normal;
     text-align: center;
+    margin-top: 1%;
 }
 
 .main-banner{
@@ -85,7 +86,6 @@ h2{
 .art-img {
     max-width: 40%;
     min-width: 35%;
-
 }
 
 .art-img img{
@@ -98,7 +98,6 @@ h2{
     flex-shrink: 1;
     flex-grow: 1;
     font-family: alata, serif;
-
 }
 
 .history-text h3{
@@ -139,7 +138,7 @@ h2{
 .footer{
     min-height: 9vh;
     height: 9vh;
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content: space-around;
     background-color: #EFAA7B;
@@ -179,6 +178,198 @@ h2{
     max-height: 10%;
     min-height: 5%;
     min-width: 5%;
+}
+
+@media only screen and (max-width: 720px) {
+    h2{
+        margin-top: 1%;
+        font-size: 30px;
+    }
+
+    .banner-text{
+        font-size: 30px;
+    }
+
+    .history-text h3{
+        font-size: 12px;
+    }
+
+    .history-text p{
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    h2{
+        margin-top: 1%;
+        font-size: 20px;
+    }
+
+    h3{
+        margin-top: 2%;
+        font-size: 12px;
+    }
+
+    #banner-container{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    #banner-container p{
+        flex: 1 0 100%;
+        box-sizing: border-box;
+        margin: 5px;
+    }
+
+    #banner-container img{
+        flex: 1 0 100%;
+        box-sizing: border-box;
+        margin: 5px;
+    }
+
+    .banner-text{
+        font-size: 20px;
+    }
+
+    .history-text p{
+        font-size: 10px;
+    }
+
+    #new-horizons{
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+
+    #new-horizons article{
+        flex: 1 0 100%;
+        box-sizing: border-box;
+        margin: 10px;
+    }
+
+    .history-text{
+        max-width: 100%;
+        min-width: 90%;
+        text-align: center;
+    }
+
+    .art-img {
+        max-width: 100%;
+        min-width: 90%;
+    }
+
+    .highlighted{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .highlighted p{
+        font-size: 10px;
+    }
+
+    .highlighted img{
+        margin-bottom: 2%;
+    }
+
+    .highlighted article{
+        max-width: 100%;
+    }
+
+    .icon-container a{
+        min-width: 20%;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    h2{
+        margin-top: 1%;
+        font-size: 14px;
+    }
+
+    h3{
+        margin-top: 2%;
+        font-size: 12px;
+    }
+
+    #banner-container{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    #banner-container p{
+        flex: 1 0 100%;
+        box-sizing: border-box;
+        margin: 5px;
+        min-width: 100%;
+    }
+
+    #banner-container img{
+        flex: 1 0 100%;
+        box-sizing: border-box;
+        margin: 5px;
+        min-width: 100%;
+    }
+
+    .banner-text{
+        font-size: 14px;
+    }
+
+    .history-text h3{
+        font-size: 12px;
+    }
+
+    .history-text p{
+        font-size: 10px;
+    }
+
+    .art-img {
+        max-width: 100%;
+        min-width: 90%;
+    }
+
+    #new-horizons{
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    #new-horizons article{
+        flex: 1 0 100%;
+        box-sizing: border-box;
+        margin: 10px;
+    }
+
+    .history-text{
+        max-width: 100%;
+        min-width: 90%;
+        text-align: center;
+    }
+
+    .highlighted{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .highlighted img{
+        margin-bottom: 2%;
+    }
+
+    .highlighted article{
+        max-width: 100%;
+    }
+
+    .icon-container a{
+        min-width: 20%;
+    }
 }
 
 
