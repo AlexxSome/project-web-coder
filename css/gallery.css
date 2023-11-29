@@ -81,8 +81,6 @@ h2{
     max-height: 40%;
 }
 
-
-
 .footer{
     min-height: 9vh;
     height: 9vh;
@@ -126,4 +124,34 @@ h2{
     max-height: 10%;
     min-height: 5%;
     min-width: 5%;
+}
+
+@media only screen and (max-width: 720px) {
+    .icon-container a{
+        min-width: 22%;
+        padding-left: 3%;
+    }
+    .footer-copyright{
+        padding-right: 3%;
+    }
+}
+
+@media only screen and (max-width: 480px)  {
+    .icon-container a{
+        min-width: 22%;
+        padding-left: 3%;
+    }
+    .footer-copyright{
+        padding-right: 3%;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .icon-container a{
+        min-width: 22%;
+        padding-left: 3%;
+    }
+    .footer-copyright{
+        padding-right: 3%;
+    }
 }
