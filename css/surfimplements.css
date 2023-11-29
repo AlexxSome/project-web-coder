@@ -157,3 +157,51 @@ h4{
     min-height: 5%;
     min-width: 5%;
 }
+
+@media only screen and (max-width: 1024px) {
+    .icon-container a{
+        min-width: 15%;
+        padding-left: 3%;
+    }
+    .footer-copyright{
+        padding-right: 3%;
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    h2{
+        margin-top: 1%;
+        font-size: 30px;
+    }
+
+    .icon-container a{
+        min-width: 18%;
+        min-height: 18%;
+        padding-left: 3%;
+    }
+
+    .footer-copyright{
+        padding-top: 4%;
+        padding-right: 3%;
+    }
+}
+
+@media only screen and (max-width: 480px)  {
+    .icon-container a{
+        min-width: 22%;
+        padding-left: 3%;
+    }
+    .footer-copyright{
+        padding-right: 3%;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .icon-container a{
+        min-width: 22%;
+        padding-left: 3%;
+    }
+    .footer-copyright{
+        padding-right: 3%;
+    }
+}
