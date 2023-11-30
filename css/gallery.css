@@ -126,7 +126,7 @@ h2{
     min-width: 5%;
 }
 
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 320px) {
     .icon-container a{
         min-width: 22%;
         padding-left: 3%;
@@ -146,12 +146,13 @@ h2{
     }
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 768px) {
     .icon-container a{
         min-width: 22%;
         padding-left: 3%;
     }
     .footer-copyright{
+        padding-top: 1%;
         padding-right: 3%;
     }
 }
