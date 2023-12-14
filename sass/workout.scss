@@ -1,0 +1,213 @@
+@import 'common';
+
+h1{
+  color: #009C99;
+
+  text-align: center;
+  font-family: Arizonia;
+  font-size: 46px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 124.8%; /* 87.36px */
+}
+
+h3{
+  color: #009C99;
+  text-align: center;
+  font-family: Archivo Narrow;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+
+  max-width: 100%;
+  max-height: 100%;
+  margin: 2% 0 0 0;
+}
+
+#intro{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  p{
+    color: #515151;
+    text-align: center;
+    font-family: Alata, sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 138.3%; /* 20.745px */
+    letter-spacing: 1.35px;
+    max-width: 70%;
+  }
+}
+
+.beachesContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 3fr);
+  grid-template-rows: repeat(6, 220px);
+  grid-template-areas: "punta-lobos pichilemu-map pichilemu-map"
+                         "punta-lobos pichilemu-map pichilemu-map"
+                         "somo maui superbank"
+                         "somo maui superbank"
+                         "mavericks jeffreys-bay puerto-escondido"
+                         "mavericks jeffreys-bay puerto-escondido";
+  gap: 15px;
+  margin-top: 2%;
+  margin-left: 2%;
+  margin-right: 2%;
+  p{
+    color: #515151;
+
+    text-align: center;
+    font-family: Alata, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+  }
+}
+
+.beachesContainer__puntaLobos{
+  grid-area: punta-lobos;
+  display: flex;
+  flex-direction: column;
+  p{
+    max-width: 100%;
+    max-height: 100%;
+  }
+  img{
+    max-width: 100%;
+    max-height: 80%;
+    object-fit: cover;
+  }
+}
+
+.beachesContainer__pichilemuMap{
+  grid-area: pichilemu-map;
+  text-align: center;
+  iframe{
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 100%;
+  }
+}
+
+.beachesContainer__mavericks{
+  grid-area: mavericks;
+  display: flex;
+  flex-direction: column;
+}
+
+.beachesContainer__mavericks img{
+  max-width: 100%;
+  max-height: 80%;
+  object-fit: cover;
+}
+
+.beachesContainer__maui{
+  grid-area: maui;
+  display: flex;
+  flex-direction: column;
+  img{
+    max-width: 100%;
+    max-height: 80%;
+    object-fit: cover;
+  }
+}
+
+.beachesContainer__superbank{
+  grid-area: superbank;
+  display: flex;
+  flex-direction: column;
+  img{
+    max-width: 100%;
+    max-height: 80%;
+    object-fit: cover;
+  }
+}
+
+.beachesContainer__somo{
+  grid-area: somo;
+  display: flex;
+  flex-direction: column;
+  img{
+    max-width: 100%;
+    max-height: 80%;
+    object-fit: cover;
+  }
+
+}
+
+.beachesContainer__puertoEscondido{
+  grid-area: puerto-escondido;
+  display: flex;
+  flex-direction: column;
+  img{
+    max-width: 100%;
+    max-height: 80%;
+    object-fit: cover;
+  }
+}
+
+.beachesContainer__jeffreysBay{
+  grid-area: jeffreys-bay;
+  display: flex;
+  flex-direction: column;
+  img{
+    max-width: 100%;
+    max-height: 80%;
+    object-fit: cover;
+  }
+}
+
+@media only screen and (max-width: 720px)  {
+  .beachesContainer {
+    grid-template-columns: repeat(1, 2fr);
+    grid-template-rows: repeat(16, 220px);
+    grid-template-areas: "punta-lobos"
+                         "punta-lobos"
+                         "pichilemu-map"
+                         "pichilemu-map"
+                         "somo"
+                         "somo"
+                         "maui"
+                         "maui"
+                         "superbank"
+                         "superbank"
+                         "mavericks"
+                         "mavericks"
+                         "jeffreys-bay"
+                         "jeffreys-bay"
+                         "puerto-escondido"
+                         "puerto-escondido";
+  }
+}
+@media only screen and (max-width: 480px)  {
+  .icon-container a{
+    min-width: 22%;
+    padding-left: 3%;
+  }
+  .footer-copyright{
+    padding-right: 3%;
+  }
+  .beachesContainer {
+    grid-template-columns: repeat(1, 2fr);
+    grid-template-rows: repeat(16, 220px);
+    grid-template-areas: "punta-lobos"
+                         "punta-lobos"
+                         "pichilemu-map"
+                         "pichilemu-map"
+                         "somo"
+                         "somo"
+                         "maui"
+                         "maui"
+                         "superbank"
+                         "superbank"
+                         "mavericks"
+                         "mavericks"
+                         "jeffreys-bay"
+                         "jeffreys-bay"
+                         "puerto-escondido"
+                         "puerto-escondido";
+  }
+}
+
