@@ -52,6 +52,7 @@ h2{
   margin-top: 1%;
 }
 
+
 /*  FOOTER  */
 .footer{
   min-height: 9vh;
@@ -98,4 +99,55 @@ h2{
   min-width: 5%;
 }
 /*  END FOOTER  */
+@media only screen and (max-width: 720px) {
+  h2{
+    margin-top: 1%;
+    font-size: 30px;
+  }
+
+  .icon-container a{
+    min-width: 22%;
+    padding-left: 3%;
+  }
+  .footer-copyright{
+    padding-right: 3%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  h2{
+    margin-top: 1%;
+    font-size: 20px;
+  }
+
+  h3{
+    margin-top: 2%;
+    font-size: 12px;
+  }
+
+  .icon-container a{
+    min-width: 20%;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  h2{
+    margin-top: 1%;
+    font-size: 14px;
+  }
+
+  h3{
+    margin-top: 2%;
+    font-size: 12px;
+  }
+
+  .icon-container a{
+    min-width: 22%;
+    padding-left: 3%;
+  }
+
+  .footer-copyright{
+    padding-right: 3%;
+  }
+}
 
