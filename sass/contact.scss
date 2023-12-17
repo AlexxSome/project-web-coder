@@ -1,0 +1,134 @@
+@import 'common';
+
+h1{
+  color: #009C99;
+  text-align: center;
+  font-family: Arizonia;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 124.8%; /* 87.36px */
+}
+
+h3{
+  color: #009C99;
+  font-family: Almarai;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 118.3%; /* 26.026px */
+  letter-spacing: 0.44px;
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+
+
+.container__form{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  flex: 1 0 48%;
+  box-sizing: border-box;
+  margin: 1%;
+  p{
+    color: #515151;
+    font-family: Alata;
+    font-size: 16px;
+    font-style: normal;
+    flex: 1 0 100%;
+    box-sizing: border-box;
+    margin: 5px;
+  }
+  input{
+    border-radius: 14px;
+    background: #A9E1E2;
+    height: 60px;
+    padding: 0;
+    flex: 1 0 100%;
+    box-sizing: border-box;
+    margin: 5px;
+    border: none;
+  }
+  textarea{
+    height: 215px;
+    border-radius: 14px;
+    background: #A9E1E2;
+    padding: 0;
+    flex: 1 0 100%;
+    box-sizing: border-box;
+    margin: 5px;
+    border: none;
+  }
+  button{
+    height: 60px;
+    border-radius: 14px;
+    background: #60C1BF;
+    padding: 0;
+    flex: 1 0 100%;
+    box-sizing: border-box;
+    margin: 5px;
+    border: none;
+    color: white;
+  }
+}
+
+::placeholder {
+  padding-left: 5%;
+  color: #fff;
+}
+
+
+@media only screen and (max-width: 320px) {
+  .icon-container a{
+    min-width: 22%;
+    padding-left: 3%;
+  }
+
+  .footer-copyright{
+    padding-right: 3%;
+  }
+}
+
+@media only screen and (max-width: 480px)  {
+  .container__form p{
+    padding-top: 1%;
+    padding-bottom: 1%;
+  }
+
+  .img-container{
+    display: none;
+  }
+
+  .icon-container a{
+    min-width: 22%;
+    padding-left: 3%;
+  }
+
+  .footer-copyright{
+    padding-right: 3%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .container__form p{
+    padding-top: 1%;
+    padding-bottom: 1%;
+  }
+  .icon-container a{
+    min-width: 22%;
+    padding-left: 3%;
+  }
+
+  .footer-copyright{
+    padding-top: 1%;
+    padding-right: 3%;
+  }
+}
